@@ -11,7 +11,7 @@ use Phalcon\Mvc\Controller as PhController;
  * @property \Website\Locale          $locale
  *
  * @property \Website\Utils           $utils
- * @property \Phalcon\Mvc\View\Simple $viewSimple
+ * @propert \Phalcon\Mvc\View\Simple $viewSimple
  */
 class Controller extends PhController
 {
@@ -60,14 +60,8 @@ class Controller extends PhController
 //			$headerSize = curl_getinfo($ch, CURLINFO_HEADER_SIZE);
 //			$body       = substr($content, $headerSize);
 //
-//			if ($errno = curl_errno($ch)) {
-//				error_log("Get GitHub release error: " . curl_error($ch));
-//			}
-//
-//			curl_close($ch);
-//
-//			$response = json_decode($body);
-//
+//= curl_errno($ch)) {
+//				error_log("Get GitHub release erro
 //			if (JSON_ERROR_NONE !== json_last_error()) {
 //				error_log("Decode GitHub response error: " . json_last_error_msg());
 //			}
